@@ -5,7 +5,7 @@
 int main(void)
 {
 
-    int dp[1000001]={0,0,1,1},n,cnt;
+    int dp[1000001]={0,0,1,1},n;
     scanf("%d",&n);
     for(int i=4;i<=n;i++)
     {
