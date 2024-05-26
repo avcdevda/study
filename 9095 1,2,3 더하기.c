@@ -7,7 +7,7 @@ int main(void)
     int n,t;
     scanf("%d",&t);
 
-    for(int i=3;i<=n;i++)
+    for(int i=3;i<11;i++)
     {
         dp[i]=dp[i-1]+dp[i-2]+dp[i-3];
     }
