@@ -11,7 +11,7 @@ int main(void)
     {
         if(i%6==0)
         {
-            dp[i]=min(dp[i/3]+1,dp[i/2]+1);
+            dp[i]=min(min(dp[i/3]+1,dp[i/2]+1),dp[i-1]+1);
         }
         else if(i%3==0)
         {
